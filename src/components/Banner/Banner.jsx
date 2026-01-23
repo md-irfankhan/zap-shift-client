@@ -7,7 +7,7 @@ import "swiper/css";
 import Slide1 from "./Slide1/Slide1";
 const Banner = () => {
   return (
-    <div>
+    <div className="pt-6">
       <Swiper
         spaceBetween={50}
         slidesPerView={1}

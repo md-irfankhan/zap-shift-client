@@ -3,7 +3,7 @@ import B1 from '../../../assets/big-deliveryman.png'
 const Slide1 = () => {
     return (
         // Main container - full width with light gray background
-    <div className="max-w-[1150px] mx-auto bg-gray-50 py-16 px-8 rounded">
+    <div className="max-w-[1150px] mx-auto bg-white py-16 px-8 rounded-2xl">
       
       {/* Content wrapper - centers content and sets max width */}
       <div className="max-w-6xl mx-auto">
