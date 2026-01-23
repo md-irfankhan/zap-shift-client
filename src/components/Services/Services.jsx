@@ -8,7 +8,7 @@ import { Camera, Heart, Star, Coffee, Globe, Moon } from 'lucide-react';
  * - text-center: Centers the text content
  */
 const Card = ({ title, subtitle, icon: Icon, bgColor }) => (
-  <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 flex flex-col items-center text-center transition-all hover:shadow-md hover:-translate-y-1">
+  <div className="bg-white hover:bg-[#CAEB66] p-8 rounded-2xl shadow-sm border border-gray-100 hover:border-0 flex flex-col items-center text-center transition-all hover:shadow-md hover:-translate-y-1">
     {/* 1. Image Area (using Lucide icons as placeholders) */}
     <div className={`${bgColor} p-4 rounded-full mb-6`}>
       <Icon size={32} className="text-white" />
@@ -56,7 +56,7 @@ export default function Services() {
             - md:grid-cols-3: 3 boxes per row on medium screens (and up)
             - gap-8: Space between the boxes
         */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8  ">
           {cardData.map((item) => (
             <Card 
               key={item.id}
